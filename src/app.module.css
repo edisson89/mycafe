@@ -1,38 +1,79 @@
-.app{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(139, 94, 47);
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 93vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(139, 94, 47);
+  box-shadow: black solid 3px;
+ 
 }
-.title{
-    display: flex;
-    color: whitesmoke;
-    
+.imageContainer{
+  display: flex;
+  width: 100%;
+  justify-content: center
+} 
+.image{
+  border-radius: 2px;
+  height:500px;
+  width:800px   
 }
-.bar{
-    display: flex;
-    justify-content: center;
-    width: 100% ;
-    padding: auto;
-    margin-bottom: 0;
-    background-color: black;
+.titleContainer{
+  display: flex;
+  width: 100%;
 }
-.contactenos{
-    display: flex;
-    color: azure;
-    justify-content: center;
-    background-color: rgb(141, 112, 99) ;
+.title {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  border-radius: 3px;
+  background: rgb(235,185,58);
+  background: radial-gradient(circle, rgba(235,185,58,1) 0%, rgba(163,151,97,1) 50%, rgba(232,252,69,1) 100%);
 }
-h2{
-    margin: 1rem;
-    margin-right: 1rem;
+
+.bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: auto;
+  margin-bottom: 0;
+  background-color: black;
+  align-items: flex-end
 }
-h3{
-    color: rgb(202, 206, 168);
+.contactenos {
+  display: flex;
+  color: azure;
+  margin: 1%;
+  padding: 0.5%;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgb(141, 112, 99);
 }
-a{
-    padding: auto;
-    margin:1rem;
-    color: rgb(149, 126, 62);
+h2 {
+  margin: 1rem;
+  margin-right: 1rem;
+}
+h3 {
+  color: rgb(202, 206, 168);
+}
+a {
+  padding: auto;
+  margin: 1rem;
+}
+@media screen and (min-width:300px)and (max-width:580px) {
+  .imageContainer{
+    height: 450px;
+  } 
+  .image{
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width:580px)and (max-width:880px) {
+  .image{
+    width: 100%;
+    height: auto;
+  }
 }
