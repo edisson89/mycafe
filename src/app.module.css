@@ -7,30 +7,36 @@
   align-items: center;
   background-color: rgb(139, 94, 47);
   box-shadow: black solid 3px;
- 
 }
-.imageContainer{
+.imageContainer {
   display: flex;
   width: 100%;
-  justify-content: center
-} 
-.image{
-  border-radius: 2px;
-  height:500px;
-  width:800px   
+  justify-content: center;
 }
-.titleContainer{
+.image {
+  border-radius: 2px;
+  height: 500px;
+  width: 800px;
+}
+.titleContainer {
   display: flex;
   width: 100%;
 }
 .title {
   display: flex;
+  height: 5rem;
+  align-items: center;
   margin: 0;
   width: 100%;
   justify-content: center;
   border-radius: 3px;
-  background: rgb(235,185,58);
-  background: radial-gradient(circle, rgba(235,185,58,1) 0%, rgba(163,151,97,1) 50%, rgba(232,252,69,1) 100%);
+  background: rgb(235, 185, 58);
+  background: radial-gradient(
+    circle,
+    rgba(235, 185, 58, 1) 0%,
+    rgba(163, 151, 97, 1) 50%,
+    rgba(232, 252, 69, 1) 100%
+  );
 }
 
 .bar {
@@ -40,7 +46,7 @@
   padding: auto;
   margin-bottom: 0;
   background-color: black;
-  align-items: flex-end
+  align-items: flex-end;
 }
 .contactenos {
   display: flex;
@@ -62,17 +68,21 @@ a {
   padding: auto;
   margin: 1rem;
 }
-@media screen and (min-width:300px)and (max-width:580px) {
-  .imageContainer{
+@media screen and (min-width: 300px) and (max-width: 580px) {
+  .imageContainer {
     height: 450px;
-  } 
-  .image{
+  }
+  .title {
+    height: 3rem;
+    align-items: center;
+  }
+  .image {
     width: 100%;
     height: auto;
   }
 }
-@media screen and (min-width:580px)and (max-width:880px) {
-  .image{
+@media screen and (min-width: 580px) and (max-width: 880px) {
+  .image {
     width: 100%;
     height: auto;
   }
