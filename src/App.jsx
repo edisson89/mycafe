@@ -15,8 +15,8 @@ function App() {
         </div>
       
       <div className={styles.contactenos}>
-        <h2>Contactenos: +57 3174782918</h2>
-        <h3>Bogota</h3>
+        <h2><i>Contactenos:</i> +57 3174782918</h2>
+        <h2>Bogota</h2>
       </div>
       </div>
       <div className={styles.bar}>
